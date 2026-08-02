@@ -7,6 +7,8 @@ author: "Sheikh Abu Malik Abdullah"
 author_role: "Sheikh e Conselheiro"
 date: 2026-08-03
 published: true
+cover: covers/o-capital-que-esta-derretendo.jpg
+youtube: "https://youtu.be/r42KSQ5iDzQ?is=a3Zpth_EP1GzjXqD"
 ---
 
 Imagine um vendedor de gelo caminhando pelas ruas e gritando: "Tenham misericórdia! Meu capital está derretendo!" Ele sabe que cada minuto de espera representa uma perda. O gelo não está apenas parado: está desaparecendo.
