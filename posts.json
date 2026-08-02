@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-08-02T10:56:05+00:00",
+  "generatedAt": "2026-08-02T11:34:00+00:00",
   "posts": [
+    {
+      "slug": "o-apego-a-allah-quando-o-coracao-encontra-um-lugar-seguro",
+      "title": "O apego a Allah: quando o coração encontra um lugar seguro",
+      "excerpt": "Como a fé islâmica oferece uma âncora espiritual para quem busca segurança emocional, pertencimento e significado em meio às incertezas da vida.",
+      "category": "Espiritualidade",
+      "tags": [
+        "apego",
+        "tawakkul",
+        "dhikr",
+        "segurança emocional",
+        "vínculo"
+      ],
+      "author": "Sheikh Abu Malik Abdullah",
+      "authorRole": "Sheikh e Conselheiro",
+      "date": "2026-08-02",
+      "readingTime": 11,
+      "url": "posts/o-apego-a-allah-quando-o-coracao-encontra-um-lugar-seguro.md"
+    },
     {
       "slug": "ansiedade-mente-acelerada-coracao-pede-calma",
       "title": "Ansiedade: quando a mente acelera e o coração pede calma",
