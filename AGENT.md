@@ -47,14 +47,19 @@ published: true                 # false = rascunho (não aparece no site)
 cover: covers/nome-da-imagem.jpg   # OPCIONAL — apagar a linha se não houver
 youtube: "https://youtu.be/VIDEO_ID" # OPCIONAL — apagar a linha se não houver
 reflection: "Uma frase de reflexão final, ligando o tema à prática." # OPCIONAL
+author_photo: authors/nome-do-autor.jpg  # OPCIONAL — ver seção 3.7
 ---
 ```
 
 Campos **obrigatórios**: `title`, `excerpt`, `category`, `author`, `date`, `published`.
-Campos **opcionais**: `tags`, `author_role`, `cover`, `youtube`, `reflection` (se não usar, REMOVA a linha — não deixe vazio).
+Campos **opcionais**: `tags`, `author_role`, `cover`, `youtube`, `reflection`, `author_photo` (se não usar, REMOVA a linha — não deixe vazio).
 
 > **`reflection`** renderiza o box dourado "Para refletir" no fim do artigo:
 > 1 a 2 frases transformando o tema em ação prática para o leitor.
+
+> **`author` NUNCA aparece no corpo do texto** — nada de assinatura no fim
+> do artigo ("— Nome do Autor"). O nome mora SÓ no frontmatter; o site já o
+> exibe no topo do artigo. Assinatura no corpo = nome duplicado na página.
 
 ### 3.3 Categorias permitidas
 
@@ -102,6 +107,18 @@ Formato OBRIGATÓRIO para versículos e ditos (dentro de blockquote):
 - O site detecta automaticamente o parágrafo 100% árabe e aplica direção
   RTL + fonte Amiri em destaque — basta separar as linhas.
 
+### 3.6 Autor e foto do autor
+
+- O nome do autor vai SOMENTE no frontmatter (`author` + `author_role`).
+  **PROIBIDO assinar o texto** (nada de "— Nome" no fim do artigo).
+- Foto do autor (opcional): pasta `authors/`, arquivo nomeado com o slug
+  do autor — mesmas regras de slug (minúsculas, hífens, sem acentos).
+  Ex.: autor "Sheikh Abu Malik Abdullah" → `authors/sheikh-abu-malik-abdullah.jpg`
+- Com a foto no lugar, inclua no frontmatter E no posts.json:
+  `author_photo: authors/sheikh-abu-malik-abdullah.jpg`
+- Foto quadrada ou retrato de rosto (o site corta em círculo), até ~300 KB.
+- Sem foto? Omita o campo — o site usa as iniciais do autor.
+
 ## 4. O índice: `posts.json`
 
 Arquivo JSON na raiz. Estrutura:
@@ -136,7 +153,7 @@ Regras do JSON:
   correta da data — normalmente o topo).
 - `"slug"` igual ao nome do arquivo sem `.md`; `"url"` = `posts/<slug>.md`.
 - `"readingTime"`: palavras do corpo ÷ 200, arredondado (mínimo 1).
-- `"cover"`, `"youtube"` e `"reflection"`: incluir só quando existirem (senão, omitir o campo).
+- `"cover"`, `"youtube"` e `"reflection"`: incluir só quando existirem (senão, omitir o campo). O mesmo vale para `"authorPhoto"`.
 - `"generatedAt"`: data/hora UTC do momento da publicação (ISO 8601).
 - Rascunho (`published: false` no .md): o artigo NÃO entra no `posts.json`.
 - Antes de commitar, valide mentalmente o JSON — um JSON quebrado derruba a
@@ -182,4 +199,6 @@ Praticar o dhikr é, em essência, ancorar a atenção...
 - [ ] `"slug"` no JSON igual ao nome do arquivo
 - [ ] Sem `#` (H1), sem HTML, sem iframe no corpo
 - [ ] Árabe em linha própria dentro do blockquote, com `>` vazio antes da tradução (regra anti-bidi)
+- [ ] Autor SÓ no frontmatter — sem assinatura no fim do texto
+- [ ] Foto do autor em `authors/<slug-do-autor>.jpg` + campo `author_photo` (se houver)
 - [ ] Autor e função conferidos com o humano que enviou o texto
