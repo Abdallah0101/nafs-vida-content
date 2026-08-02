@@ -17,9 +17,9 @@ No Islam, esse lugar não é uma pessoa, um emprego, um relacionamento, uma posi
 
 É Allah.
 
-> «﴿أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ﴾
-> “É somente com a lembrança de Allah que os corações encontram tranquilidade.”
-> (Al-Ra'd, 13:28)»
+> ﴿أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ﴾
+>
+> “É somente com a lembrança de Allah que os corações encontram tranquilidade.” (Al-Ra'd, 13:28)
 
 Essa não é apenas uma afirmação sobre a prática religiosa. Ela toca uma necessidade profundamente humana: a necessidade de segurança, pertencimento, significado e esperança.
 
@@ -67,9 +67,9 @@ O vínculo com Allah.
 
 Allah diz:
 
-> «﴿وَالَّذِينَ آمَنُوا أَشَدُّ حُبًّا لِلَّهِ﴾
-> “E aqueles que creem são mais intensos em seu amor por Allah.”
-> (Al-Baqarah, 2:165)»
+> ﴿وَالَّذِينَ آمَنُوا أَشَدُّ حُبًّا لِلَّهِ﴾
+>
+> “E aqueles que creem são mais intensos em seu amor por Allah.” (Al-Baqarah, 2:165)
 
 Perceba a profundidade desse conceito.
 
@@ -195,7 +195,9 @@ Porque o coração humano possui necessidades que nenhuma criatura consegue sati
 
 Allah diz:
 
-> «﴿وَمَن يَعْشُ عَن ذِكْرِ الرَّحْمَٰنِ نُقَيِّضْ لَهُ شَيْطَانًا فَهُوَ لَهُ قَرِينٌ﴾»
+> ﴿وَمَن يَعْشُ عَن ذِكْرِ الرَّحْمَٰنِ نُقَيِّضْ لَهُ شَيْطَانًا فَهُوَ لَهُ قَرِينٌ﴾
+>
+> “E quem se afasta da lembrança do Misericordioso, destinamos-lhe um demônio como companheiro.” (Az-Zukhruf, 43:36)
 
 Afastar-se da lembrança de Allah deixa o ser humano vulnerável a outras formas de orientação e companhia.
 
@@ -265,9 +267,9 @@ Mas seu coração não se torna escravo dos resultados.
 
 Allah diz:
 
-> «﴿وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ﴾
-> “E quem confiar em Allah, Ele lhe será suficiente.”
-> (At-Talaq, 65:3)»
+> ﴿وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ﴾
+>
+> “E quem confiar em Allah, Ele lhe será suficiente.” (At-Talaq, 65:3)
 
 Isso não significa:
 
@@ -317,9 +319,9 @@ E tudo aquilo que temos pertence originalmente a Ele.
 
 Allah diz:
 
-> «﴿إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ﴾
-> “Certamente pertencemos a Allah, e a Ele retornaremos.”
-> (Al-Baqarah, 2:156)»
+> ﴿إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ﴾
+>
+> “Certamente pertencemos a Allah, e a Ele retornaremos.” (Al-Baqarah, 2:156)
 
 Essa frase não é apenas uma expressão para momentos de morte.
 
@@ -427,9 +429,9 @@ O crente sabe que, mesmo quando todas as pessoas se afastam, Allah não o abando
 
 Allah diz:
 
-> «﴿مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ﴾
-> “Teu Senhor não te abandonou, nem te detestou.”
-> (Ad-Duha, 93:3)»
+> ﴿مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ﴾
+>
+> “Teu Senhor não te abandonou, nem te detestou.” (Ad-Duha, 93:3)
 
 ## O que significa, na prática, apegar-se a Allah?
 
@@ -521,9 +523,9 @@ Por isso, o coração precisa estar ligado a algo que não muda.
 
 E esse é Allah.
 
-> «﴿اللَّهُ الصَّمَدُ﴾
-> “Allah, o Absoluto, Aquele de Quem todos dependem.”
-> (Al-Ikhlas, 112:2)»
+> ﴿اللَّهُ الصَّمَدُ﴾
+>
+> “Allah, o Absoluto, Aquele de Quem todos dependem.” (Al-Ikhlas, 112:2)
 
 Talvez seja essa uma das maiores descobertas que um ser humano pode fazer:
 

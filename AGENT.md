@@ -80,6 +80,28 @@ Se o artigo pedir uma categoria nova, confirme com o humano antes.
 - Tamanho ideal: 400 a 900 palavras.
 - Tom: acolhedor, profissional, respeitoso com a tradição islâmica.
 
+### 3.5 Versículos, hadith e texto em árabe (regra anti-bidi)
+
+**NUNCA misture árabe e português na mesma linha/parágrafo.** O navegador
+embaralha a ordem dos caracteres (problema de bidirecionalidade: árabe é
+RTL, português é LTR). Versículos já saíram quebrados por causa disso.
+
+Formato OBRIGATÓRIO para versículos e ditos (dentro de blockquote):
+
+```markdown
+> ﴿النَّصُ بِالْعَرَبِيَّةِ﴾
+>
+> “Tradução em português.” (Al-Ra'd, 13:28)
+```
+
+- O árabe fica **sozinho** na primeira linha do blockquote, entre ﴿ ﴾.
+- **Sem « »** em volta e sem aspas no texto em árabe.
+- A linha `>` vazia entre o árabe e a tradução é **obrigatória** (é o que
+  separa os dois parágrafos no HTML final).
+- Tradução com aspas “ ” e referência ao final da mesma linha: `(Sura X:Y)`.
+- O site detecta automaticamente o parágrafo 100% árabe e aplica direção
+  RTL + fonte Amiri em destaque — basta separar as linhas.
+
 ## 4. O índice: `posts.json`
 
 Arquivo JSON na raiz. Estrutura:
@@ -159,4 +181,5 @@ Praticar o dhikr é, em essência, ancorar a atenção...
 - [ ] `posts.json` atualizado, JSON válido, ordem por data desc
 - [ ] `"slug"` no JSON igual ao nome do arquivo
 - [ ] Sem `#` (H1), sem HTML, sem iframe no corpo
+- [ ] Árabe em linha própria dentro do blockquote, com `>` vazio antes da tradução (regra anti-bidi)
 - [ ] Autor e função conferidos com o humano que enviou o texto
