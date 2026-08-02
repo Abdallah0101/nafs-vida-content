@@ -7,6 +7,7 @@ author: "Equipe Nafs & Vida"
 author_role: "Psicologia Islâmica"
 date: 2026-06-09
 published: true
+reflection: "Hoje, escolha uma pessoa querida: ofereça um gesto de mawaddah — carinho explícito — e um de rahmah — misericórdia silenciosa."
 ---
 
 Poucas passagens descrevem o casamento com tanta ternura quanto esta:

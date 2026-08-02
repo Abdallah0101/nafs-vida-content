@@ -7,6 +7,7 @@ author: "Equipe Nafs & Vida"
 author_role: "Psicologia Islâmica"
 date: 2026-06-28
 published: true
+reflection: "Antes do próximo compromisso, faça um minuto de dhikr consciente. Um minuto de presença por vez já muda o dia inteiro."
 ---
 
 Muito antes de a atenção plena ganhar manuais de psicologia e aplicativos de

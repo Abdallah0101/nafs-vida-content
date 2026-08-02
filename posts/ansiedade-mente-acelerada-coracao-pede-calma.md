@@ -7,6 +7,7 @@ author: "Equipe Nafs & Vida"
 author_role: "Psicologia Islâmica"
 date: 2026-07-12
 published: true
+reflection: "Quando a mente acelerar, pare: respire fundo três vezes e faça um dhikr consciente. A calma também se treina — na terapia e na lembrança de Allah."
 ---
 
 A ansiedade tem um jeito particular de nos tirar do presente: a mente corre

@@ -46,11 +46,15 @@ date: 2026-08-02                # AAAA-MM-DD
 published: true                 # false = rascunho (não aparece no site)
 cover: covers/nome-da-imagem.jpg   # OPCIONAL — apagar a linha se não houver
 youtube: "https://youtu.be/VIDEO_ID" # OPCIONAL — apagar a linha se não houver
+reflection: "Uma frase de reflexão final, ligando o tema à prática." # OPCIONAL
 ---
 ```
 
 Campos **obrigatórios**: `title`, `excerpt`, `category`, `author`, `date`, `published`.
-Campos **opcionais**: `tags`, `author_role`, `cover`, `youtube` (se não usar, REMOVA a linha — não deixe vazio).
+Campos **opcionais**: `tags`, `author_role`, `cover`, `youtube`, `reflection` (se não usar, REMOVA a linha — não deixe vazio).
+
+> **`reflection`** renderiza o box dourado "Para refletir" no fim do artigo:
+> 1 a 2 frases transformando o tema em ação prática para o leitor.
 
 ### 3.3 Categorias permitidas
 
@@ -96,7 +100,8 @@ Arquivo JSON na raiz. Estrutura:
       "readingTime": 3,
       "url": "posts/dhikr-e-presenca-atencao-plena-no-isla.md",
       "cover": "covers/dhikr.jpg",
-      "youtube": "https://youtu.be/VIDEO_ID"
+      "youtube": "https://youtu.be/VIDEO_ID",
+      "reflection": "Uma frase de reflexão final para o leitor praticar."
     }
   ]
 }
@@ -109,7 +114,7 @@ Regras do JSON:
   correta da data — normalmente o topo).
 - `"slug"` igual ao nome do arquivo sem `.md`; `"url"` = `posts/<slug>.md`.
 - `"readingTime"`: palavras do corpo ÷ 200, arredondado (mínimo 1).
-- `"cover"` e `"youtube"`: incluir só quando existirem (senão, omitir o campo).
+- `"cover"`, `"youtube"` e `"reflection"`: incluir só quando existirem (senão, omitir o campo).
 - `"generatedAt"`: data/hora UTC do momento da publicação (ISO 8601).
 - Rascunho (`published: false` no .md): o artigo NÃO entra no `posts.json`.
 - Antes de commitar, valide mentalmente o JSON — um JSON quebrado derruba a
