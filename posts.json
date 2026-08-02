@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-08-02T14:10:00+00:00",
+  "generatedAt": "2026-08-03T02:30:00+00:00",
   "posts": [
+    {
+      "slug": "o-capital-que-esta-derretendo",
+      "title": "O capital que está derretendo",
+      "excerpt": "Como a consciência da limitação do tempo pode transformar nossas escolhas, relacionamentos e proximidade com Allah.",
+      "category": "Espiritualidade",
+      "tags": [
+        "tempo",
+        "juventude",
+        "sabedoria",
+        "consciência",
+        "ação"
+      ],
+      "author": "Sheikh Abu Malik Abdullah",
+      "authorRole": "Sheikh e Conselheiro",
+      "date": "2026-08-03",
+      "readingTime": 3,
+      "url": "posts/o-capital-que-esta-derretendo.md"
+    },
     {
       "slug": "a-saudade-de-allah",
       "title": "A saudade de Allah",
