@@ -7,25 +7,30 @@
 ## 1. O que é este repositório
 
 Repositório de **conteúdo** do blog Nafs & Vida (Psicologia Islâmica).
-Contém apenas artigos em Markdown e imagens de capa. O site lê este
-repositório em tempo de execução e renderiza os artigos automaticamente.
+Contém apenas artigos em Markdown, imagens de capa e o índice `posts.json`.
+O site lê este repositório em tempo de execução e renderiza os artigos
+automaticamente.
 
-## 2. Regra de ouro
+## 2. Publicar um artigo = 2 arquivos (3 com capa)
 
-- A ÚNICA ação permitida: **criar novos arquivos** em `posts/<slug>.md`
-  e, opcionalmente, imagens em `covers/`.
-- **NUNCA** edite ou crie `posts.json` manualmente — ele é gerado
-  automaticamente por uma GitHub Action a cada push.
+Para cada artigo novo, o agente DEVE entregar no mesmo commit:
+
+1. **`posts/<slug>.md`** — o artigo (formato abaixo)
+2. **`posts.json` ATUALIZADO** — o objeto do artigo adicionado ao array `posts`,
+   mantendo a ordem por data (mais novo PRIMEIRO)
+3. *(opcional)* **`covers/<imagem>.jpg`** — a capa
+
 - **NUNCA** edite artigos de outros autores sem instrução explícita do humano.
-- Não crie pastas novas, não mexa em `.github/`, `scripts/`, `AGENT.md`, `README.md`.
+- Não crie pastas novas, não mexa em `AGENT.md`, `README.md`, `.gitignore`.
 
-## 3. Criando um artigo
+## 3. O artigo: `posts/<slug>.md`
 
 ### 3.1 Nome do arquivo (slug)
 
 - Minúsculas, sem acentos, sem espaços — palavras separadas por hífen.
 - Termina com `.md`. O nome do arquivo (sem `.md`) vira a URL do artigo.
 - Ex.: `posts/ansiedade-mente-acelerada.md` → `/blog/ansiedade-mente-acelerada`
+- O slug do arquivo DEVE ser igual ao campo `"slug"` no `posts.json`.
 
 ### 3.2 Cabeçalho (frontmatter YAML) — obrigatório
 
@@ -71,33 +76,61 @@ Se o artigo pedir uma categoria nova, confirme com o humano antes.
 - Tamanho ideal: 400 a 900 palavras.
 - Tom: acolhedor, profissional, respeitoso com a tradição islâmica.
 
-### 3.5 Imagens de capa (opcional)
+## 4. O índice: `posts.json`
+
+Arquivo JSON na raiz. Estrutura:
+
+```json
+{
+  "generatedAt": "2026-08-02T12:00:00Z",
+  "posts": [
+    {
+      "slug": "dhikr-e-presenca-atencao-plena-no-isla",
+      "title": "Dhikr e presença: a atenção plena que sempre esteve no Islã",
+      "excerpt": "Muito antes da atenção plena virar tema da psicologia...",
+      "category": "Espiritualidade",
+      "tags": ["dhikr", "atenção plena"],
+      "author": "Equipe Nafs & Vida",
+      "authorRole": "Psicologia Islâmica",
+      "date": "2026-06-28",
+      "readingTime": 3,
+      "url": "posts/dhikr-e-presenca-atencao-plena-no-isla.md",
+      "cover": "covers/dhikr.jpg",
+      "youtube": "https://youtu.be/VIDEO_ID"
+    }
+  ]
+}
+```
+
+Regras do JSON:
+
+- Sempre **JSON válido**: aspas duplas, sem vírgula sobrando, UTF-8.
+- `posts` ordenado por `date` **decrescente** (artigo novo entra na posição
+  correta da data — normalmente o topo).
+- `"slug"` igual ao nome do arquivo sem `.md`; `"url"` = `posts/<slug>.md`.
+- `"readingTime"`: palavras do corpo ÷ 200, arredondado (mínimo 1).
+- `"cover"` e `"youtube"`: incluir só quando existirem (senão, omitir o campo).
+- `"generatedAt"`: data/hora UTC do momento da publicação (ISO 8601).
+- Rascunho (`published: false` no .md): o artigo NÃO entra no `posts.json`.
+- Antes de commitar, valide mentalmente o JSON — um JSON quebrado derruba a
+  listagem do blog. Se não tiver certeza, regrave o arquivo inteiro com cuidado.
+
+## 5. Imagens de capa (opcional)
 
 - Pasta `covers/`, formatos `.jpg` ou `.webp`, até ~500 KB, proporção ~16:9.
 - Nome do arquivo segue a regra do slug (minúsculas, hífens, sem acentos).
-- Referencie no frontmatter como `cover: covers/arquivo.jpg`.
-- Sem imagem? Remova a linha `cover:` — o site usa uma arte padrão.
+- Referencie como `cover: covers/arquivo.jpg` (no .md e no posts.json).
+- Sem imagem? Omita o campo — o site usa uma arte padrão.
 
-## 4. O que acontece depois do push
+## 6. O que acontece depois do push
 
-1. A GitHub Action lê `posts/*.md`, valida os cabeçalhos e gera `posts.json`.
-2. O site publica o artigo em ~2 minutos, em `/blog/<slug>`.
-3. Se o cabeçalho estiver inválido, o artigo é **ignorado** (não quebra o site).
+1. O GitHub recebe o commit com o `.md` + `posts.json`.
+2. O site lê o `posts.json` atualizado e publica o artigo em ~1–2 minutos,
+   em `/blog/<slug>`. Nenhuma outra ação é necessária.
 
-## 5. Exemplo completo (modelo para copiar)
+## 7. Exemplo completo de corpo (modelo)
 
 ```markdown
----
-title: "Dhikr e presença: a atenção plena que sempre esteve no Islã"
-excerpt: "Muito antes da atenção plena virar tema da psicologia, o Islã já ensinava a arte de estar presente."
-category: Espiritualidade
-tags: [dhikr, atenção plena]
-author: "Equipe Nafs & Vida"
-author_role: "Psicologia Islâmica"
-date: 2026-06-28
-published: true
----
-
 Muito antes de a atenção plena ganhar manuais de psicologia, o Islã já
 ensinava a arte de estar presente: o **dhikr**, a lembrança constante de Allah.
 
@@ -112,12 +145,13 @@ Pesquisas em psicologia mostram que uma mente errante tende à ansiedade...
 Praticar o dhikr é, em essência, ancorar a atenção...
 ```
 
-## 6. Checklist antes de publicar
+## 8. Checklist antes de publicar
 
 - [ ] Arquivo em `posts/` com slug válido
-- [ ] Todos os campos obrigatórios preenchidos
+- [ ] Todos os campos obrigatórios no frontmatter
 - [ ] `category` é uma das 5 permitidas (escrita exata)
 - [ ] `date` no formato AAAA-MM-DD
-- [ ] `published: true` (ou `false` se for rascunho)
+- [ ] `posts.json` atualizado, JSON válido, ordem por data desc
+- [ ] `"slug"` no JSON igual ao nome do arquivo
 - [ ] Sem `#` (H1), sem HTML, sem iframe no corpo
 - [ ] Autor e função conferidos com o humano que enviou o texto
