@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-08-02T11:34:00+00:00",
+  "generatedAt": "2026-08-02T12:45:00+00:00",
   "posts": [
+    {
+      "slug": "resiliencia-em-allah-quando-a-fe-nos-ensina-a-permanecer-de-pe",
+      "title": "Resiliência em Allah: quando a fé nos ensina a permanecer de pé",
+      "excerpt": "Como a confiança em Allah e a compreensão islâmica do sofrimento podem fortalecer o coração diante das adversidades da vida.",
+      "category": "Espiritualidade",
+      "tags": [
+        "resiliência",
+        "tawakkul",
+        "sabr",
+        "dor",
+        "significado"
+      ],
+      "author": "Sheikh Abu Malik Abdullah",
+      "authorRole": "Sheikh e Conselheiro",
+      "date": "2026-08-02",
+      "readingTime": 6,
+      "url": "posts/resiliencia-em-allah-quando-a-fe-nos-ensina-a-permanecer-de-pe.md",
+      "reflection": "A próxima vez que enfrentar uma dificuldade, pergunte-se: 'O que está sob meu controle e o que pertence a Allah?' Faça sua parte e confie no resto."
+    },
     {
       "slug": "o-apego-a-allah-quando-o-coracao-encontra-um-lugar-seguro",
       "title": "O apego a Allah: quando o coração encontra um lugar seguro",
@@ -33,8 +52,7 @@
       "authorRole": "Psicologia Islâmica",
       "date": "2026-07-12",
       "readingTime": 1,
-      "url": "posts/ansiedade-mente-acelerada-coracao-pede-calma.md",
-      "reflection": "Quando a mente acelerar, pare: respire fundo três vezes e faça um dhikr consciente. A calma também se treina — na terapia e na lembrança de Allah."
+      "url": "posts/ansiedade-mente-acelerada-coracao-pede-calma.md"
     },
     {
       "slug": "dhikr-e-presenca-atencao-plena-no-isla",
@@ -50,8 +68,7 @@
       "authorRole": "Psicologia Islâmica",
       "date": "2026-06-28",
       "readingTime": 1,
-      "url": "posts/dhikr-e-presenca-atencao-plena-no-isla.md",
-      "reflection": "Antes do próximo compromisso, faça um minuto de dhikr consciente. Um minuto de presença por vez já muda o dia inteiro."
+      "url": "posts/dhikr-e-presenca-atencao-plena-no-isla.md"
     },
     {
       "slug": "mawaddah-e-rahmah-amor-e-misericordia",
@@ -67,8 +84,7 @@
       "authorRole": "Psicologia Islâmica",
       "date": "2026-06-09",
       "readingTime": 1,
-      "url": "posts/mawaddah-e-rahmah-amor-e-misericordia.md",
-      "reflection": "Hoje, escolha uma pessoa querida: ofereça um gesto de mawaddah — carinho explícito — e um de rahmah — misericórdia silenciosa."
+      "url": "posts/mawaddah-e-rahmah-amor-e-misericordia.md"
     }
   ]
 }
