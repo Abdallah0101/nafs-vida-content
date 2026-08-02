@@ -5,6 +5,7 @@ category: Espiritualidade
 tags: [resiliência, tawakkul, sabr, dor, significado]
 author: "Sheikh Abu Malik Abdullah"
 author_role: "Sheikh e Conselheiro"
+author_photo: authors/sheikh-abu-malik-abdullah.jpeg
 date: 2026-08-02
 published: true
 reflection: "A próxima vez que enfrentar uma dificuldade, pergunte-se: 'O que está sob meu controle e o que pertence a Allah?' Faça sua parte e confie no resto."

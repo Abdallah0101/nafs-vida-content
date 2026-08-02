@@ -5,6 +5,7 @@ category: Espiritualidade
 tags: [saudade, dhikr, proximidade, coração, espiritualidade]
 author: "Sheikh Abu Malik Abdullah"
 author_role: "Sheikh e Conselheiro"
+author_photo: authors/sheikh-abu-malik-abdullah.jpeg
 date: 2026-08-02
 published: true
 cover: covers/saudade-de-allah.jpg

@@ -5,6 +5,7 @@ category: Espiritualidade
 tags: [dua, munajah, oração, espiritualidade, emoções]
 author: "Sheikh Abu Malik Abdullah"
 author_role: "Sheikh e Conselheiro"
+author_photo: authors/sheikh-abu-malik-abdullah.jpeg
 date: 2026-08-02
 published: true
 youtube: "https://youtu.be/tCndg31nb2M?is=wXauztaEon7lYCKI"
