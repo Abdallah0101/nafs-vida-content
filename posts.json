@@ -1,6 +1,26 @@
 {
-  "generatedAt": "2026-08-02T13:15:00+00:00",
+  "generatedAt": "2026-08-02T14:10:00+00:00",
   "posts": [
+    {
+      "slug": "a-saudade-de-allah",
+      "title": "A saudade de Allah",
+      "excerpt": "Quando o coração sente falta da proximidade com Allah e descobre que essa saudade é, em si mesma, um chamado para voltar.",
+      "category": "Espiritualidade",
+      "tags": [
+        "saudade",
+        "dhikr",
+        "proximidade",
+        "coração",
+        "espiritualidade"
+      ],
+      "author": "Sheikh Abu Malik Abdullah",
+      "authorRole": "Sheikh e Conselheiro",
+      "date": "2026-08-02",
+      "readingTime": 1,
+      "url": "posts/a-saudade-de-allah.md",
+      "cover": "covers/saudade-de-allah.jpg",
+      "reflection": "Se você sente saudade de Allah, não procure distrações. Procure Ele. Um momento de dhikr vale mais que mil tentativas de esquecer."
+    },
     {
       "slug": "dua-e-munajah-quando-o-silencio-se-torna-conversa-com-allah",
       "title": "Du'a e Munājāh: quando o silêncio se torna conversa com Allah",
