@@ -1,0 +1,6 @@
+# Ferramentas locais (nunca commitar)
+.venv-tool/
+
+# Sistema
+.DS_Store
+Thumbs.db

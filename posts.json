@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-08-02T10:56:05+00:00",
+  "posts": [
+    {
+      "slug": "ansiedade-mente-acelerada-coracao-pede-calma",
+      "title": "Ansiedade: quando a mente acelera e o coração pede calma",
+      "excerpt": "Entenda como a psicologia e a prática do dhikr podem caminhar juntas no cuidado com a ansiedade.",
+      "category": "Saúde Emocional",
+      "tags": [
+        "ansiedade",
+        "dhikr",
+        "saúde mental"
+      ],
+      "author": "Equipe Nafs & Vida",
+      "authorRole": "Psicologia Islâmica",
+      "date": "2026-07-12",
+      "readingTime": 1,
+      "url": "posts/ansiedade-mente-acelerada-coracao-pede-calma.md"
+    },
+    {
+      "slug": "dhikr-e-presenca-atencao-plena-no-isla",
+      "title": "Dhikr e presença: a atenção plena que sempre esteve no Islã",
+      "excerpt": "Muito antes da atenção plena virar tema da psicologia, o Islã já ensinava a arte de estar presente.",
+      "category": "Espiritualidade",
+      "tags": [
+        "dhikr",
+        "atenção plena",
+        "presença"
+      ],
+      "author": "Equipe Nafs & Vida",
+      "authorRole": "Psicologia Islâmica",
+      "date": "2026-06-28",
+      "readingTime": 1,
+      "url": "posts/dhikr-e-presenca-atencao-plena-no-isla.md"
+    },
+    {
+      "slug": "mawaddah-e-rahmah-amor-e-misericordia",
+      "title": "Mawaddah e Rahmah: amor e misericórdia na vida a dois",
+      "excerpt": "O que o Alcorão ensina sobre o vínculo entre casais — e como isso se encontra com a terapia de casal.",
+      "category": "Relacionamentos",
+      "tags": [
+        "casamento",
+        "mawaddah",
+        "rahmah"
+      ],
+      "author": "Equipe Nafs & Vida",
+      "authorRole": "Psicologia Islâmica",
+      "date": "2026-06-09",
+      "readingTime": 1,
+      "url": "posts/mawaddah-e-rahmah-amor-e-misericordia.md"
+    }
+  ]
+}
